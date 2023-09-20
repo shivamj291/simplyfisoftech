@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(44, 37, 37); 
+}
+.rotated-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 250px;
+    transform: rotate(45deg);
+ 
+}
+
+.rotated-div {
+    transform: rotate(-45deg);
+   
+}
+
+.rotated-div h1 {
+    transform: rotate(0deg);
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+
+  
+}
+.inner_div{
+   
+    background-color: rgb(44, 37, 37); 
+    width: 195px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#h5_tag{
+    color:white;
+    text-align: center;
+    margin-top: -18px;
+}
+
+#red_div{
+    height: 30px;
+    width: 100%;
+    background-color:orange;
+}
+#violet_div{
+    height: 30px;
+    width: 100%;
+    
+    background-color: rgb(124, 124, 243);
+}
+#green_div{
+    height:100%;
+    width: 50%;
+    background-color: rgb(175, 208, 164);
+    align-items: space-around;
+}
+#coral_div{
+ height:12%;
+ width: 100%;
+ background-color:coral;
+}
+#light_teal_div{
+     height:12%;
+     width: 100%;
+     background-color:rgb(105, 197, 197);
+     margin-top: 189px;
+}
+#gray_div{
+    height:100%;
+    width: 50%;
+    background-color: rgb(187, 187, 175);
+    align-items: space-around;
+}
+#crimson_div{
+    height:12%;
+    width: 100%;
+    background-color:rgb(185, 120, 133);
+}
+#teal_div{
+    height:12%;width: 100%;background-color:teal;margin-top: 190px;
+}
