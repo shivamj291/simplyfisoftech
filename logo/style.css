@@ -60,6 +60,9 @@ body{
     width: 50%;
     background-color: rgb(175, 208, 164);
     align-items: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #coral_div{
  height:12%;
@@ -70,13 +73,16 @@ body{
      height:12%;
      width: 100%;
      background-color:rgb(105, 197, 197);
-     margin-top: 189px;
+   
 }
 #gray_div{
     height:100%;
     width: 50%;
     background-color: rgb(187, 187, 175);
     align-items: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #crimson_div{
     height:12%;
@@ -84,5 +90,5 @@ body{
     background-color:rgb(185, 120, 133);
 }
 #teal_div{
-    height:12%;width: 100%;background-color:teal;margin-top: 190px;
+    height:12%;width: 100%;background-color:teal
 }
